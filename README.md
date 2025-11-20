@@ -21,7 +21,7 @@ It supports both **PDF** and **Word (.docx)** resumes and produces a neat, color
 ```
 resume_tool/
 │
-├── resume_filter.py        # Main script
+├── resume_filter_agent.py  # Main script
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project documentation
 ├── .gitignore              # Ignored files (optional)
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 3. **Run the tool**
    ```bash
-   python resume_filter.py
+   python resume_filter_agent.py
    ```
 
 4. **Select resumes**
